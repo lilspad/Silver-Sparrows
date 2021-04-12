@@ -1,45 +1,99 @@
-    html {
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 75px;
-    }
-    
-    header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        display: flex;
-        width: 100%;
-        height: 75px;
-        justify-content: space-between;
-        align-items: center;
-        background-color: white;
-    }
-    
-    #logo-short {
-        padding: 40px;
-    }
-    
-    nav {
-        padding: 40px;
-    }
-    
-    a {
-        text-decoration: none;
-        padding: 10px;
-        color: black;
-        font-size: 16px;
-    }
-    
-    #banner {
-        background-image: url(/resources/img/birch-background-2.jpg);
-        width: 100%;
-        height: 200px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    }
-    
-    h2 {
-        font-family: 'Bebas Neue', cursive;
-    }
+ html {
+     font-family: 'Montserrat', sans-serif;
+     margin-top: 95px;
+     background: white;
+ }
+ 
+ header {
+     position: fixed;
+     top: 0;
+     left: 0;
+     display: flex;
+     width: 100%;
+     height: 90px;
+     justify-content: space-between;
+     align-items: center;
+     background-color: white;
+     border-bottom: solid black 1px;
+     ;
+ }
+ 
+ #logo-short {
+     padding-left: 60px;
+     max-height: 240px;
+     max-width: 140px;
+ }
+ 
+ nav {
+     padding-right: 60px;
+ }
+ 
+ a {
+     text-decoration: none;
+     padding: 10px;
+     color: black;
+     font-size: 18px;
+ }
+ 
+ #main {
+     display: grid;
+     grid-template: repeat(10, 10%)/repeat(16, 1fr);
+     width: 85%;
+     height: 900px;
+     margin: auto;
+ }
+ 
+ #one {
+     grid-area: 1 / 1 / 6 / 9;
+     margin: auto;
+ }
+ 
+ #two {
+     font-family: 'Bebas Neue', cursive;
+     grid-area: 2 / 9 / 5 / 17;
+     color: white;
+     font-size: 60px;
+     padding-left: 40px;
+ }
+ 
+ #three {
+     color: rgb(32, 27, 27);
+     font-family: 'Bebas Neue', cursive;
+     grid-area: 3 / 10 / 4/ 17;
+     text-align: center;
+     font-size: 32px;
+     padding-top: 40px;
+     padding-left: 40px;
+ }
+ 
+ #four {
+     grid-area: 1 / 9 / 7 / 17;
+     z-index: -1;
+     padding: 10px;
+     border: solid black;
+ }
+ 
+ #five {
+     grid-area: 5 / 8 / 6 / 12;
+ }
+ 
+ button {
+     border: none;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 18px;
+     color: black;
+     background-color: white;
+     border-radius: 45px;
+     margin: auto;
+     text-align: center;
+     padding: 20px;
+     transition-duration: 1s;
+ }
+ 
+ button:hover {
+     background-color: #e6ad58;
+     color: white;
+     border: none;
+ }
+ 
+ #six {}
