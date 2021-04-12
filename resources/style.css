@@ -122,17 +122,17 @@
          
          #catalog .container {
              display: flex;
-             margin-top: 170px;
+             margin-top: 133px;
+             left: 0;
              justify-content: space-around;
              color: white;
-             width: 100%;
              border-top: rgb(32, 27, 27) solid 5px;
          }
          
          #catalog .box {
              display: flex;
-             justify-content: flex-start;
-             align-items: stretch;
+             justify-content: first baseline;
+             align-items: center;
              flex-direction: column;
              background-color: rgb(32, 27, 27);
              border-bottom-left-radius: 20px;
@@ -146,6 +146,7 @@
          
          #catalog h4 {
              margin-top: 0;
+             text-decoration: underline;
          }
          
          .info {
@@ -156,7 +157,6 @@
          
          #catalog button {
              font-size: 1rem;
-             margin-top: 200px;
          }
          /* LOCATIONS */
          
@@ -207,15 +207,14 @@
          
          .back {
              position: relative;
-             float: left;
              max-width: 1600px;
              max-height: 500px;
+             margin-left: 200px;
          }
          
          #people h2 {
              display: block;
              position: absolute;
-             float: left;
              top: 220px;
              left: 200px;
              width: 570px;
@@ -229,15 +228,14 @@
          #people p {
              display: block;
              position: absolute;
-             float: left;
              top: 560px;
              left: 200px;
              width: 570px;
-             height: 440px;
+             height: 330px;
              padding: 10px;
              z-index: 1;
              font-family: 'Bebas Neue', cursive;
-             font-size: 3rem;
+             font-size: 2.625rem;
              color: black;
              background-color: white;
          }
@@ -256,5 +254,5 @@
          
          #copyright {
              text-align: right;
-             padding: 50px;
+             padding: 20px;
          }
