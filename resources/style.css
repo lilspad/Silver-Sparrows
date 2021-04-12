@@ -45,12 +45,12 @@
              color: rgb(230, 173, 88);
          }
          
-         h1 {
+         h2 {
              font-family: 'Bebas Neue', cursive;
              font-size: 3rem;
          }
          
-         h2 {
+         h3 {
              font-family: 'Bebas Neue', cursive;
              font-size: 1.75rem;
          }
@@ -212,7 +212,7 @@
              max-height: 500px;
          }
          
-         #people h1 {
+         #people h2 {
              display: block;
              position: absolute;
              float: left;
