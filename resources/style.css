@@ -208,9 +208,13 @@
          
          .back {
              position: relative;
-             max-width: 1600px;
-             max-height: 500px;
-             margin-left: 150px;
+             width: 100vw;
+             height: 100vh;
+         }
+
+         .back img {
+            width: 100%;
+            height: 140%;
          }
          
          #people h2 {
